@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5847BEF0AF89F62C7B35D56C /* Pods_instasnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68AAA842649C3FD7B87F85F /* Pods_instasnap.framework */; };
 		E01CFB8D1CFE04E100F0C46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFB8C1CFE04E100F0C46A /* AppDelegate.swift */; };
 		E01CFB8F1CFE04E100F0C46A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFB8E1CFE04E100F0C46A /* FirstViewController.swift */; };
 		E01CFB911CFE04E100F0C46A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFB901CFE04E100F0C46A /* SecondViewController.swift */; };
@@ -15,6 +16,11 @@
 		E01CFB991CFE04E100F0C46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CFB971CFE04E100F0C46A /* LaunchScreen.storyboard */; };
 		E01CFBA41CFE04E100F0C46A /* instasnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBA31CFE04E100F0C46A /* instasnapTests.swift */; };
 		E01CFBAF1CFE04E100F0C46A /* instasnapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBAE1CFE04E100F0C46A /* instasnapUITests.swift */; };
+		E01CFBBD1CFE085700F0C46A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E01CFBBC1CFE085700F0C46A /* GoogleService-Info.plist */; };
+		E01CFBC11CFE0E8400F0C46A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01CFBBF1CFE0E8400F0C46A /* FBSDKCoreKit.framework */; };
+		E01CFBC21CFE0E8400F0C46A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */; };
+		E01CFBC41CFE103900F0C46A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBC31CFE103900F0C46A /* LoginVC.swift */; };
+		E01CFBC61CFE1D6E00F0C46A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7711517A021E69B94C94D851 /* Pods-instasnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instasnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instasnap/Pods-instasnap.debug.xcconfig"; sourceTree = "<group>"; };
+		B68AAA842649C3FD7B87F85F /* Pods_instasnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instasnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01CFB891CFE04E100F0C46A /* instasnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instasnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01CFB8C1CFE04E100F0C46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E01CFB8E1CFE04E100F0C46A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		E01CFBAA1CFE04E100F0C46A /* instasnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instasnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01CFBAE1CFE04E100F0C46A /* instasnapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instasnapUITests.swift; sourceTree = "<group>"; };
 		E01CFBB01CFE04E100F0C46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01CFBBC1CFE085700F0C46A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E01CFBBF1CFE0E8400F0C46A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E01CFBC31CFE103900F0C46A /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		FFB2B00F4BFA46952BE448E0 /* Pods-instasnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instasnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-instasnap/Pods-instasnap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5847BEF0AF89F62C7B35D56C /* Pods_instasnap.framework in Frameworks */,
+				E01CFBC11CFE0E8400F0C46A /* FBSDKCoreKit.framework in Frameworks */,
+				E01CFBC21CFE0E8400F0C46A /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C784E2CE6353B9A2FDEECE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7711517A021E69B94C94D851 /* Pods-instasnap.debug.xcconfig */,
+				FFB2B00F4BFA46952BE448E0 /* Pods-instasnap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B524C35E1FAAEEC4B77A73E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B68AAA842649C3FD7B87F85F /* Pods_instasnap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E01CFB801CFE04E100F0C46A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				E01CFBA21CFE04E100F0C46A /* instasnapTests */,
 				E01CFBAD1CFE04E100F0C46A /* instasnapUITests */,
 				E01CFB8A1CFE04E100F0C46A /* Products */,
+				1C784E2CE6353B9A2FDEECE1 /* Pods */,
+				B524C35E1FAAEEC4B77A73E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +135,17 @@
 		E01CFB8B1CFE04E100F0C46A /* instasnap */ = {
 			isa = PBXGroup;
 			children = (
+				E01CFBBE1CFE0E2B00F0C46A /* Frameworks */,
 				E01CFB8C1CFE04E100F0C46A /* AppDelegate.swift */,
+				E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */,
+				E01CFBC31CFE103900F0C46A /* LoginVC.swift */,
 				E01CFB8E1CFE04E100F0C46A /* FirstViewController.swift */,
 				E01CFB901CFE04E100F0C46A /* SecondViewController.swift */,
 				E01CFB921CFE04E100F0C46A /* Main.storyboard */,
 				E01CFB951CFE04E100F0C46A /* Assets.xcassets */,
 				E01CFB971CFE04E100F0C46A /* LaunchScreen.storyboard */,
 				E01CFB9A1CFE04E100F0C46A /* Info.plist */,
+				E01CFBBC1CFE085700F0C46A /* GoogleService-Info.plist */,
 			);
 			path = instasnap;
 			sourceTree = "<group>";
@@ -128,6 +168,15 @@
 			path = instasnapUITests;
 			sourceTree = "<group>";
 		};
+		E01CFBBE1CFE0E2B00F0C46A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E01CFBBF1CFE0E8400F0C46A /* FBSDKCoreKit.framework */,
+				E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01CFBB31CFE04E100F0C46A /* Build configuration list for PBXNativeTarget "instasnap" */;
 			buildPhases = (
+				ADE48AA245515B3778D0059C /* 📦 Check Pods Manifest.lock */,
 				E01CFB851CFE04E100F0C46A /* Sources */,
 				E01CFB861CFE04E100F0C46A /* Frameworks */,
 				E01CFB871CFE04E100F0C46A /* Resources */,
+				5F4F278D1EFBEAF791AD9ECB /* 📦 Embed Pods Frameworks */,
+				8B511B2D6C1347802AE55D9C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01CFB991CFE04E100F0C46A /* LaunchScreen.storyboard in Resources */,
+				E01CFBBD1CFE085700F0C46A /* GoogleService-Info.plist in Resources */,
 				E01CFB961CFE04E100F0C46A /* Assets.xcassets in Resources */,
 				E01CFB941CFE04E100F0C46A /* Main.storyboard in Resources */,
 			);
@@ -254,6 +307,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F4F278D1EFBEAF791AD9ECB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instasnap/Pods-instasnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B511B2D6C1347802AE55D9C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instasnap/Pods-instasnap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE48AA245515B3778D0059C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E01CFB851CFE04E100F0C46A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +362,8 @@
 			files = (
 				E01CFB911CFE04E100F0C46A /* SecondViewController.swift in Sources */,
 				E01CFB8D1CFE04E100F0C46A /* AppDelegate.swift in Sources */,
+				E01CFBC41CFE103900F0C46A /* LoginVC.swift in Sources */,
+				E01CFBC61CFE1D6E00F0C46A /* SignUpVC.swift in Sources */,
 				E01CFB8F1CFE04E100F0C46A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,8 +506,13 @@
 		};
 		E01CFBB41CFE04E100F0C46A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7711517A021E69B94C94D851 /* Pods-instasnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/instasnap",
+				);
 				INFOPLIST_FILE = instasnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daranhep.instasnap;
@@ -414,8 +522,13 @@
 		};
 		E01CFBB51CFE04E100F0C46A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB2B00F4BFA46952BE448E0 /* Pods-instasnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/instasnap",
+				);
 				INFOPLIST_FILE = instasnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daranhep.instasnap;
@@ -488,6 +601,7 @@
 				E01CFBB51CFE04E100F0C46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01CFBB61CFE04E100F0C46A /* Build configuration list for PBXNativeTarget "instasnapTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +610,7 @@
 				E01CFBB81CFE04E100F0C46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E01CFBB91CFE04E100F0C46A /* Build configuration list for PBXNativeTarget "instasnapUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +619,7 @@
 				E01CFBBB1CFE04E100F0C46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

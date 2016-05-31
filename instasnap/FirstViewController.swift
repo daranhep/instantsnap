@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class FirstViewController: UIViewController {
 
@@ -20,6 +21,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func signOutBtnPressed(sender: AnyObject) {
+        
+        try! FIRAuth.auth()!.signOut()
+        performSegueWithIdentifier("signedOut", sender: nil )
+    }
 
 }
 
