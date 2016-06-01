@@ -21,6 +21,7 @@
 		E01CFBC21CFE0E8400F0C46A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */; };
 		E01CFBC41CFE103900F0C46A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBC31CFE103900F0C46A /* LoginVC.swift */; };
 		E01CFBC61CFE1D6E00F0C46A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */; };
+		E0FA99D61CFF3467006D869B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA99D51CFF3467006D869B /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E01CFBC31CFE103900F0C46A /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E0FA99D51CFF3467006D869B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		FFB2B00F4BFA46952BE448E0 /* Pods-instasnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instasnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-instasnap/Pods-instasnap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,17 +137,14 @@
 		E01CFB8B1CFE04E100F0C46A /* instasnap */ = {
 			isa = PBXGroup;
 			children = (
-				E01CFBBE1CFE0E2B00F0C46A /* Frameworks */,
-				E01CFB8C1CFE04E100F0C46A /* AppDelegate.swift */,
-				E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */,
-				E01CFBC31CFE103900F0C46A /* LoginVC.swift */,
-				E01CFB8E1CFE04E100F0C46A /* FirstViewController.swift */,
-				E01CFB901CFE04E100F0C46A /* SecondViewController.swift */,
+				E0FA99D81CFF3DAE006D869B /* Model */,
+				E0FA99D91CFF3DB4006D869B /* View */,
+				E0FA99D71CFF3DA9006D869B /* Controller */,
 				E01CFB921CFE04E100F0C46A /* Main.storyboard */,
 				E01CFB951CFE04E100F0C46A /* Assets.xcassets */,
 				E01CFB971CFE04E100F0C46A /* LaunchScreen.storyboard */,
-				E01CFB9A1CFE04E100F0C46A /* Info.plist */,
-				E01CFBBC1CFE085700F0C46A /* GoogleService-Info.plist */,
+				E0FA99DA1CFF3DC5006D869B /* Resources */,
+				E01CFBBE1CFE0E2B00F0C46A /* Frameworks */,
 			);
 			path = instasnap;
 			sourceTree = "<group>";
@@ -175,6 +174,42 @@
 				E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FA99D71CFF3DA9006D869B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E01CFB8C1CFE04E100F0C46A /* AppDelegate.swift */,
+				E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */,
+				E01CFBC31CFE103900F0C46A /* LoginVC.swift */,
+				E01CFB8E1CFE04E100F0C46A /* FirstViewController.swift */,
+				E01CFB901CFE04E100F0C46A /* SecondViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0FA99D81CFF3DAE006D869B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0FA99D91CFF3DB4006D869B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA99D51CFF3467006D869B /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0FA99DA1CFF3DC5006D869B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E01CFB9A1CFE04E100F0C46A /* Info.plist */,
+				E01CFBBC1CFE085700F0C46A /* GoogleService-Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +283,7 @@
 				TargetAttributes = {
 					E01CFB881CFE04E100F0C46A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 825KNZSNMQ;
 					};
 					E01CFB9E1CFE04E100F0C46A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -365,6 +401,7 @@
 				E01CFBC41CFE103900F0C46A /* LoginVC.swift in Sources */,
 				E01CFBC61CFE1D6E00F0C46A /* SignUpVC.swift in Sources */,
 				E01CFB8F1CFE04E100F0C46A /* FirstViewController.swift in Sources */,
+				E0FA99D61CFF3467006D869B /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +546,8 @@
 			baseConfigurationReference = 7711517A021E69B94C94D851 /* Pods-instasnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/instasnap",
@@ -517,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daranhep.instasnap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -525,6 +565,8 @@
 			baseConfigurationReference = FFB2B00F4BFA46952BE448E0 /* Pods-instasnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/instasnap",
@@ -533,6 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daranhep.instasnap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
