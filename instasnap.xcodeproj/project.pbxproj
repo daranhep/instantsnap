@@ -21,12 +21,15 @@
 		E01CFBC21CFE0E8400F0C46A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */; };
 		E01CFBC41CFE103900F0C46A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBC31CFE103900F0C46A /* LoginVC.swift */; };
 		E01CFBC61CFE1D6E00F0C46A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */; };
+<<<<<<< HEAD
 		E01EC54F1D00DCD0009975D2 /* CustomBtn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01EC54E1D00DCD0009975D2 /* CustomBtn2.swift */; };
 		E01EC5531D00E06B009975D2 /* CustomImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01EC5521D00E06B009975D2 /* CustomImg.swift */; };
 		E07D0F5B1CFF8EFF001F460D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0F5A1CFF8EFF001F460D /* Constants.swift */; };
 		E07D0F611CFF90B7001F460D /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0F601CFF90B7001F460D /* CustomizeButton.swift */; };
 		E07D0F631CFF9EC4001F460D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0F621CFF9EC4001F460D /* CustomTextField.swift */; };
 		E07D0F651CFFA7A1001F460D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0F641CFFA7A1001F460D /* CustomView.swift */; };
+=======
+>>>>>>> 8af9e5040e5a5601f0d5006c63ed3b5be231217e
 		E0FA99D61CFF3467006D869B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA99D51CFF3467006D869B /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,12 +72,15 @@
 		E01CFBC01CFE0E8400F0C46A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E01CFBC31CFE103900F0C46A /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E01CFBC51CFE1D6E00F0C46A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		E01EC54E1D00DCD0009975D2 /* CustomBtn2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn2.swift; sourceTree = "<group>"; };
 		E01EC5521D00E06B009975D2 /* CustomImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImg.swift; sourceTree = "<group>"; };
 		E07D0F5A1CFF8EFF001F460D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E07D0F601CFF90B7001F460D /* CustomizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
 		E07D0F621CFF9EC4001F460D /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		E07D0F641CFFA7A1001F460D /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> 8af9e5040e5a5601f0d5006c63ed3b5be231217e
 		E0FA99D51CFF3467006D869B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		FFB2B00F4BFA46952BE448E0 /* Pods-instasnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instasnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-instasnap/Pods-instasnap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,7 +155,10 @@
 		E01CFB8B1CFE04E100F0C46A /* instasnap */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				E07D0F591CFF8EF1001F460D /* Util */,
+=======
+>>>>>>> 8af9e5040e5a5601f0d5006c63ed3b5be231217e
 				E0FA99D81CFF3DAE006D869B /* Model */,
 				E0FA99D91CFF3DB4006D869B /* View */,
 				E0FA99D71CFF3DA9006D869B /* Controller */,
@@ -189,6 +198,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		E07D0F591CFF8EF1001F460D /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +207,8 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 8af9e5040e5a5601f0d5006c63ed3b5be231217e
 		E0FA99D71CFF3DA9006D869B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,11 +232,14 @@
 			isa = PBXGroup;
 			children = (
 				E0FA99D51CFF3467006D869B /* PostCell.swift */,
+<<<<<<< HEAD
 				E07D0F601CFF90B7001F460D /* CustomizeButton.swift */,
 				E07D0F621CFF9EC4001F460D /* CustomTextField.swift */,
 				E07D0F641CFFA7A1001F460D /* CustomView.swift */,
 				E01EC54E1D00DCD0009975D2 /* CustomBtn2.swift */,
 				E01EC5521D00E06B009975D2 /* CustomImg.swift */,
+=======
+>>>>>>> 8af9e5040e5a5601f0d5006c63ed3b5be231217e
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -427,6 +442,7 @@
 				E01CFBC41CFE103900F0C46A /* LoginVC.swift in Sources */,
 				E01CFBC61CFE1D6E00F0C46A /* SignUpVC.swift in Sources */,
 				E01CFB8F1CFE04E100F0C46A /* FirstViewController.swift in Sources */,
+<<<<<<< HEAD
 				E07D0F651CFFA7A1001F460D /* CustomView.swift in Sources */,
 				E01EC5531D00E06B009975D2 /* CustomImg.swift in Sources */,
 				E0FA99D61CFF3467006D869B /* PostCell.swift in Sources */,
@@ -434,6 +450,9 @@
 				E01EC54F1D00DCD0009975D2 /* CustomBtn2.swift in Sources */,
 				E07D0F611CFF90B7001F460D /* CustomizeButton.swift in Sources */,
 				E07D0F631CFF9EC4001F460D /* CustomTextField.swift in Sources */,
+=======
+				E0FA99D61CFF3467006D869B /* PostCell.swift in Sources */,
+>>>>>>> 8af9e5040e5a5601f0d5006c63ed3b5be231217e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
